@@ -7,7 +7,7 @@ Unsure of what is used to access this, probably REST
 
 
 
-[SteamWebAPI](https://github.com/Revadike/InternalSteamWebAPI/wiki) // [SteamWebAPI2](https://steamapi.xpaw.me/) I intend to use this API to find discounts/sales on games, and the reviews for said discounted game(s). This would save a lot of time scrolling, clicking on the game, looking at the reviews, and then going back to the list and doing it all again. With this I intend to make it so I can easily check discounted games and determine whether they are great or not so great
+* [SteamWebAPI](https://github.com/Revadike/InternalSteamWebAPI/wiki) // [SteamWebAPI2](https://steamapi.xpaw.me/) I intend to use this API to find discounts/sales on games, and the reviews for said discounted game(s). This would save a lot of time scrolling, clicking on the game, looking at the reviews, and then going back to the list and doing it all again. With this I intend to make it so I can easily check discounted games and determine whether they are great or not so great
 Unsure of what is used to access this, probably REST
 
 
