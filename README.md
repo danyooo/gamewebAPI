@@ -13,3 +13,12 @@ Unsure of what is used to access this, probably REST
 
 ---------------------------Could combine the above two? In the sense of, check a free to play game, if it's on steam, check reviews-------------------
 
+[Design platform](https://design.penpot.app/#/workspace/61b3a512-985c-80ca-8004-366a75d386c3/b4ce4fde-fc7c-81a2-8004-36660c762bfc?page-id=b4ce4fde-fc7c-81a2-8004-36660c762bfd&layout=layers](https://design.penpot.app/#/view/b4ce4fde-fc7c-81a2-8004-36660c762bfc?page-id=b4ce4fde-fc7c-81a2-8004-36660c762bfd&section=interactions&index=0&share-id=b4ce4fde-fc7c-81a2-8004-38f975fe1bad))
+
+(See Designs below)
+
+### Premise
+
+![DesignPlandesignplan](https://github.com/danyooo/gamewebAPI/assets/42193011/0a958516-0bc6-426e-b127-587c1f8f7ddc)
+### FlowChart
+![FlowChart (1)](https://github.com/danyooo/gamewebAPI/assets/42193011/cb3090d2-46ed-4ba9-b402-d44438c9a6b0)
