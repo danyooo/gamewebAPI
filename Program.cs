@@ -8,9 +8,11 @@ namespace webAPI
   class Program
   {
     static void Main(string[] args){
-freegames gameList = new freegames();
-gameList.request;
-console.writeLine(response);
+freeGames gameList = new freeGames();
+var response = gameList.request();
+
+Console.WriteLine(response.Content);
+
 
     // create a new Request 
 //     var restClient = new RestClient("https://www.freetogame.com/api");

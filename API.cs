@@ -4,16 +4,18 @@ namespace webAPI{
     // create a parent class to contain all features for API's in use.
 
 public abstract class API{
-virtual string url = "";
-//create params variable to set what you're requesting
-virtual string params = "";
- public void request(){
-var client = new RestClient(this.url);
-var APIrequest = new RestRequest(this.params);
-var response = this.client.Get(this.APIrequest);
-return this.response;
+RestClient client;
+RestRequest APIrequest;
+public RestClient response;
+ protected string url = "";
+//create params variable to set what you're requesting public void request(){
+ protected string parameters = "";
+public RestResponse request(){
+  client = new RestClient(this.url);
+
+  APIrequest = new RestRequest(this.parameters);
+  var response = this.client.Get(this.APIrequest);
+  return response;
 }
 }
-
-
 }
