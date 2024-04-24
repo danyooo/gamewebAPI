@@ -1,10 +1,7 @@
 using System;
 using RestSharp;
 namespace webAPI{
-    public class games{
-public List<gameData> data {get;set;}
-
-    }
+   
 public class gameData{
     
         public int id { get; set; }
