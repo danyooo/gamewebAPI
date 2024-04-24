@@ -12,7 +12,7 @@ public RestClient response;
  protected string parameters = "";
 public RestResponse request(){
   client = new RestClient(this.url);
-
+//create a "RestRequest" Method
   APIrequest = new RestRequest(this.parameters);
   var response = this.client.Get(this.APIrequest);
   return response;
