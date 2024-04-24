@@ -1,6 +1,12 @@
-// Root myDeserializedClass = JsonConvert.DeserializeObject<List<Root>>(myJsonResponse);
-    public class Root
-    {
+using System;
+using RestSharp;
+namespace webAPI{
+    public class games{
+public List<gameData> data {get;set;}
+
+    }
+public class gameData{
+    
         public int id { get; set; }
         public string title { get; set; }
         public string thumbnail { get; set; }
@@ -12,5 +18,9 @@
         public string developer { get; set; }
         public string release_date { get; set; }
         public string freetogame_profile_url { get; set; }
-    }
 
+
+}
+   
+    
+}

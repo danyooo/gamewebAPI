@@ -12,7 +12,11 @@ freeGames gameList = new freeGames();
 var response = gameList.request();
 
 Console.WriteLine(response.Content);
-
+//deserialize
+games allfreegames = new JsonSerializer.Deserialize<games>(jsonString);
+foreach(var item in allfreegames.data){
+  Console.WriteLine(games.name);
+}
 
     // create a new Request 
 //     var restClient = new RestClient("https://www.freetogame.com/api");
