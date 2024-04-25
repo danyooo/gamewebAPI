@@ -1,7 +1,7 @@
 using System;
 using RestSharp;
 namespace webAPI{
-   
+   //instantiate an object to grab the recieved data and later deserialize into a string
 public class gameData{
     
         public int id { get; set; }
